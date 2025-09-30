@@ -25,8 +25,11 @@ This API allows users to upload CSV or Excel files to train a model, test it, an
 - Saves trained model and encoder columns for later use (`model.pkl`, `encoder_columns.pkl`)  
 
 ---
+# files for train and test :
+  EXAMPLES OF FILES FOR TRAIN MODEL:- given in file stucture as(house_prices_pune_real)
+  AND FOR TESTING THE MODEL  :-  given in file stucture as(house_prices_pune_test_50)
 
-## Installation
+ Installation
 
 1. Clone the repository:
 
@@ -119,8 +122,7 @@ Response:
     "prediction": 12563429.96
 }
 
-# EXAMPLES OF FILES FOR TRAIN MODEL:- given in file stucture as(house_prices_pune_real)
-  AND FOR TESTING THE MODEL  :-  given in file stucture as(house_prices_pune_test_50)
+
 1.Using Postman
 
 You can test all API endpoints using Postman:
