@@ -7,17 +7,9 @@ This API allows users to upload CSV or Excel files to train a model, test it, an
 ## 1️⃣ Recommended File Structure
 
 
-flask-ml-app/           
-│
-├── app.py              <- Your main Flask app
-├── requirements.txt    <- Python dependencies
-├── README.md           <- Project description & usage
-├── model.pkl           <- Trained ML model (generated after training)
-├── encoder_columns.pkl <- Saved encoder columns (generated after training)
-│
-└── data/        <- Optional folder for sample CSV/XLSX files
-    └── house_prices_pune_real.csv      <- for train (use any file ,its a eg file of my project)
-    └── house_prices_pune_test_50.csv   <- for testing 
+<img width="1749" height="410" alt="image" src="https://github.com/user-attachments/assets/498d5840-be3f-4277-84bc-c85c3cea87a3" />
+
+
 ## Table of Contents
 
 1. [Features](#features)  
