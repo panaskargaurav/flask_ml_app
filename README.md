@@ -4,7 +4,20 @@ A simple Flask API for training, testing, and predicting using a **Linear Regres
 This API allows users to upload CSV or Excel files to train a model, test it, and make predictions on new data.
 
 ---
+## 1️⃣ Recommended File Structure
 
+
+flask-ml-app/           
+│
+├── app.py              <- Your main Flask app
+├── requirements.txt    <- Python dependencies
+├── README.md           <- Project description & usage
+├── model.pkl           <- Trained ML model (generated after training)
+├── encoder_columns.pkl <- Saved encoder columns (generated after training)
+│
+└── data/        <- Optional folder for sample CSV/XLSX files
+    └── house_prices_pune_real.csv      <- for train (use any file ,its a eg file of my project)
+    └── house_prices_pune_test_50.csv   <- for testing 
 ## Table of Contents
 
 1. [Features](#features)  
