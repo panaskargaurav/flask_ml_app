@@ -29,11 +29,11 @@ This API allows users to upload CSV or Excel files to train a model, test it, an
   EXAMPLES OF FILES FOR TRAIN MODEL:- given in file stucture as(house_prices_pune_real)
   AND FOR TESTING THE MODEL  :-  given in file stucture as(house_prices_pune_test_50)
 
- Installation
+ ## Installation
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/yourusername/flask-ml-app.git
 cd flask-ml-app
 
