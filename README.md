@@ -61,7 +61,8 @@ By default, the API will run on:
 
 http://127.0.0.1:5000/
 
-API Endpoints
+API Endpoints:
+
 1️⃣ Train Model
 
 URL: /train
@@ -122,8 +123,9 @@ Response:
     "prediction": 12563429.96
 }
 
+---
 
-1.Using Postman
+## Using Postman
 
 You can test all API endpoints using Postman:
 
@@ -133,11 +135,11 @@ Method: POST
 
 URL: http://127.0.0.1:5000/train
 
-Body → Form-Data:
+* Body → Form-Data:
 
-Key: file → Choose a CSV/XLSX file
+* Key: file → Choose a CSV/XLSX file
 
-Key: target → Enter target column name
+* Key: target → Enter target column name
 
 Send the request and check the response for mse and r2.
 
@@ -147,11 +149,11 @@ Method: POST
 
 URL: http://127.0.0.1:5000/test
 
-Body → Form-Data:
+* Body → Form-Data:
 
-Key: file → CSV/XLSX test file
+* Key: file → CSV/XLSX test file
 
-Key: target → Target column name
+* Key: target → Target column name
 
 Send request → Response contains test metrics.
 
@@ -161,7 +163,7 @@ Method: POST
 
 URL: http://127.0.0.1:5000/predict
 
-Body → raw JSON:
+* Body → raw JSON:
 
   {
   "sqft": 1500,
