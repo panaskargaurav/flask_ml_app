@@ -10,6 +10,10 @@ This API allows users to upload CSV or Excel files to train a model, test it, an
 <img width="1749" height="410" alt="image" src="https://github.com/user-attachments/assets/498d5840-be3f-4277-84bc-c85c3cea87a3" />
 
 
+# files for train and test :
+  EXAMPLES OF FILES FOR TRAIN MODEL:- given in file stucture as(house_prices_pune_real)
+  AND FOR TESTING THE MODEL  :-  given in file stucture as(house_prices_pune_test_50)
+  
 ## Table of Contents
 
 1. [Features](#features)  
@@ -30,9 +34,7 @@ This API allows users to upload CSV or Excel files to train a model, test it, an
 - Saves trained model and encoder columns for later use (`model.pkl`, `encoder_columns.pkl`)  
 
 ---
-# files for train and test :
-  EXAMPLES OF FILES FOR TRAIN MODEL:- given in file stucture as(house_prices_pune_real)
-  AND FOR TESTING THE MODEL  :-  given in file stucture as(house_prices_pune_test_50)
+
 
  ## Installation
 
@@ -66,7 +68,7 @@ By default, the API will run on:
 
 http://127.0.0.1:5000/
 
-API Endpoints:
+## API Endpoints:
 
 1️⃣ Train Model
 
@@ -182,7 +184,7 @@ Send request → Response contains predicted value.
 
 ✅ Tip: Always include all columns that were used during training, especially one-hot encoded categorical columns.
 
-Notes
+## Notes
 
 After training, model.pkl and encoder_columns.pkl are created. Keep them safe for later predictions.
 
